@@ -1,0 +1,60 @@
+[{
+    "title": "工作网址",
+    "name": "work",
+    "nav": [
+      {
+        "icon": "https://ework.murphyyi.com/favicon.ico",
+        "name": "ework",
+        "desc": "ework公开网站",
+        "link": "https://ework.murphyyi.com"
+      }
+    ]
+  },
+    {
+      "title": "家庭网络相关",
+      "name": "home",
+      "nav": [
+        {
+          "icon": "https://docker.zy.cn/favicon.ico",
+          "name": "容器管理",
+          "desc": "docker",
+          "link": "https://docker.zy.cn"
+        },
+        {
+          "icon": "https://js.zy.cn/favicon.ico",
+          "name": "跳板机管理",
+          "desc": "jumpserver",
+          "link": "https://js.zy.cn"
+        },
+         {
+          "icon": "https://ikuai.zy.cn/favicon.ico",
+          "name": "本地网络管理",
+          "desc": "本地路由",
+          "link": "https://ikuai.zy.cn/"
+        },
+        {
+          "icon": "https://wrt.zy.cn/favicon.ico",
+          "name": "wrt软路由",
+          "desc": "wrt路由器",
+          "link": "https://wrt.zy.cn"
+        },{
+          "icon": "https://master.mi.zy.cn/favicon.ico",
+          "name": "Home Mi Master Route",
+          "desc": "家庭主路由器",
+          "link": "https://master.mi.zy.cn"
+        },
+        {
+          "icon": "https://www.aliyundrive.com/favicon.ico",
+          "name": "阿里云盘",
+          "desc": "海纳百川",
+          "link": "https://www.aliyundrive.com"
+        },
+        {
+          "icon": "http://pan.zy.cn/favicon.ico",
+          "name": "常用分享",
+          "desc": "这里拥有你需要常用的所有软件、方法、教程、书籍，涵盖windows macos ios等",
+          "link": "http://pan.zy.cn"
+        }
+      ]
+    }
+  ]
