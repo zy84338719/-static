@@ -15,33 +15,45 @@
       "name": "home",
       "nav": [
         {
-          "icon": "https://docker.z.com/favicon.ico",
+          "icon": "http://docker.z.com/favicon.ico",
           "name": "容器管理",
           "desc": "docker",
           "link": "https://docker.z.com"
         },
         {
-          "icon": "https://jp.z.com/favicon.ico",
+          "icon": "http://jp.z.com/favicon.ico",
           "name": "跳板机管理",
           "desc": "jumpserver",
           "link": "https://jp.z.com"
         },
          {
-          "icon": "https://ik.z.com/favicon.ico",
+          "icon": "http://ik.z.com/favicon.ico",
           "name": "本地网络管理",
           "desc": "本地路由",
-          "link": "https://ik.z.com/"
+          "link": "http://ik.z.com/"
         },
         {
           "icon": "https://wrt.z.com/favicon.ico",
           "name": "wrt软路由",
           "desc": "wrt路由器",
-          "link": "https://wrt.z.com"
+          "link": "http://wrt.z.com"
         },{
-          "icon": "https://master.mi.zy.cn/favicon.ico",
+          "icon": "https://10.10.10.251/favicon.ico",
           "name": "Home Mi Master Route",
-          "desc": "家庭主路由器",
-          "link": "https://master.mi.zy.cn"
+          "desc": "家庭GFW路由器",
+          "link": "http://10.10.10.251"
+        },
+          {
+          "icon": "https://sy.z.com/favicon.ico",
+          "name": "群晖",
+          "desc": "家庭群晖、提供内网解析、电影存储 vpn 内网前端服务器等服务",
+          "link": "http://sy.z.com"
+        },
+          {
+          "icon": "https://qnap.z.com/favicon.ico",
+          "name": "Qnap",
+          "desc": "工程存储、提供代码、redis mysql vpn vm等一些列服务",
+          "link": "http://qnap.z.com"
         },
         {
           "icon": "https://www.aliyundrive.com/favicon.ico",
