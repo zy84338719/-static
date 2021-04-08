@@ -32,6 +32,12 @@
           "desc": "本地路由",
           "link": "http://ik.z.com/"
         },
+            {
+          "icon": "http://10。10.9.10/favicon.ico",
+          "name": "本地wifi 主路由",
+          "desc": "本地路由",
+          "link": "http://10。10.9.10"
+        },
         {
           "icon": "https://wrt.z.com/favicon.ico",
           "name": "wrt软路由",
@@ -39,7 +45,7 @@
           "link": "http://wrt.z.com"
         },{
           "icon": "https://10.10.10.251/favicon.ico",
-          "name": "Home Mi Master Route",
+          "name": "GFW wifi 路由器",
           "desc": "家庭GFW路由器",
           "link": "http://10.10.10.251"
         },
