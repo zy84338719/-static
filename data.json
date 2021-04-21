@@ -20,6 +20,12 @@
           "desc": "docker",
           "link": "https://docker.z.com"
         },
+          {
+          "icon": "http://ci.z.com/favicon.ico",
+          "name": "CI 工具",
+          "desc": "CI",
+          "link": "https://ci.z.com"
+        },
         {
           "icon": "http://jp.z.com/favicon.ico",
           "name": "跳板机管理",
