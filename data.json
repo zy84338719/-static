@@ -3,82 +3,46 @@
     "name": "work",
     "nav": [
       {
+        "icon": "https://github.com/favicon.ico",
+        "name": "自己的github",
+        "desc": "zy8338719 github",
+        "link": "https://github.com/zy84338719"
+      },
+      {
+        "icon": "https://gitlab.com/favicon.ico",
+        "name": "自己的gitlab",
+        "desc": "自己的gitlab",
+        "link": "https://gitlab.com/murphyyi"
+      },
+      {
+        "icon": "https://leetcode-cn.com/favicon.ico",
+        "name": "leetcode",
+        "desc": "刷题的网站",
+        "link": "https://leetcode-cn.com"
+      },
+      {
+        "icon": "https://golang.design/favicon.ico",
+        "name": "巩固一下",
+        "desc": "巩固一下",
+        "link": "https://golang.design/go-questions/"
+      },
+      {
+        "icon": "https://golang.design/favicon.ico",
+        "name": "手册",
+        "desc": "手册",
+        "link": "https://golang.design/under-the-hood/"
+      },
+      {
+        "icon": "http://wen.topgoer.com/favicon.ico",
+        "name": "文档",
+        "desc": "文档",
+        "link": "http://wen.topgoer.com/"
+      },
+      {
         "icon": "https://ework.murphyyi.com/favicon.ico",
         "name": "ework",
         "desc": "ework公开网站",
         "link": "https://ework.murphyyi.com"
       }
     ]
-  },
-    {
-      "title": "家庭网络相关",
-      "name": "home",
-      "nav": [
-        {
-          "icon": "http://docker.z.com/favicon.ico",
-          "name": "容器管理",
-          "desc": "docker",
-          "link": "https://docker.z.com"
-        },
-          {
-          "icon": "http://ci.z.com/favicon.ico",
-          "name": "CI 工具",
-          "desc": "CI",
-          "link": "https://ci.z.com"
-        },
-        {
-          "icon": "http://jp.z.com/favicon.ico",
-          "name": "跳板机管理",
-          "desc": "jumpserver",
-          "link": "https://jp.z.com"
-        },
-         {
-          "icon": "http://ik.z.com/favicon.ico",
-          "name": "本地网络管理",
-          "desc": "本地路由",
-          "link": "http://ik.z.com/"
-        },
-            {
-          "icon": "http://10。10.9.10/favicon.ico",
-          "name": "本地wifi 主路由",
-          "desc": "本地路由",
-          "link": "http://10。10.9.10"
-        },
-        {
-          "icon": "https://wrt.z.com/favicon.ico",
-          "name": "wrt软路由",
-          "desc": "wrt路由器",
-          "link": "http://wrt.z.com"
-        },{
-          "icon": "https://10.10.10.251/favicon.ico",
-          "name": "GFW wifi 路由器",
-          "desc": "家庭GFW路由器",
-          "link": "http://10.10.10.251"
-        },
-          {
-          "icon": "https://sy.z.com/favicon.ico",
-          "name": "群晖",
-          "desc": "家庭群晖、提供内网解析、电影存储 vpn 内网前端服务器等服务",
-          "link": "http://sy.z.com"
-        },
-          {
-          "icon": "https://qnap.z.com/favicon.ico",
-          "name": "Qnap",
-          "desc": "工程存储、提供代码、redis mysql vpn vm等一些列服务",
-          "link": "http://qnap.z.com"
-        },
-        {
-          "icon": "https://www.aliyundrive.com/favicon.ico",
-          "name": "阿里云盘",
-          "desc": "海纳百川",
-          "link": "https://www.aliyundrive.com"
-        },
-        {
-          "icon": "http://pan.z.com/favicon.ico",
-          "name": "常用分享",
-          "desc": "这里拥有你需要常用的所有软件、方法、教程、书籍，涵盖windows macos ios等",
-          "link": "http://pan.z.com"
-        }
-      ]
-    }
-  ]
+}]
