@@ -39,6 +39,24 @@
         "link": "http://wen.topgoer.com/"
       },
       {
+        "icon": "http://yuque.com/favicon.ico",
+        "name": "语雀文档",
+        "desc": "语雀，墨菲易",
+        "link": "http://yuque.com/murphyyi/"
+      },
+      {
+        "icon": "https://www.aliyundrive.com/favicon.ico",
+        "name": "alipan",
+        "desc": "阿里云盘",
+        "link": "https://www.aliyundrive.com/sign/in"
+      },
+      {
+        "icon": "https://www.aliyundrive.com/favicon.ico",
+        "name": "pan",
+        "desc": "墨菲阿里云盘",
+        "link": "https://pan.murphyyi.com"
+      },
+      {
         "icon": "https://ework.murphyyi.com/favicon.ico",
         "name": "ework",
         "desc": "ework公开网站",
