@@ -21,6 +21,12 @@
         "link": "https://leetcode-cn.com"
       },
       {
+        "icon": "https://https://codetop.cc/favicon.ico",
+        "name": "leetcode",
+        "desc": "刷题策略",
+        "link": "https://codetop.cc/#/home"
+      },  
+      {
         "icon": "https://golang.design/favicon.ico",
         "name": "巩固一下",
         "desc": "巩固一下",
@@ -55,6 +61,12 @@
         "name": "pan",
         "desc": "墨菲阿里云盘",
         "link": "https://pan.murphyyi.com"
+      },
+      {
+        "icon": "https://fuckcloudnative.io/favicon.ico",
+        "name": "云原生",
+        "desc": "云原生",
+        "link": "https://fuckcloudnative.io/"
       },
       {
         "icon": "https://ework.murphyyi.com/favicon.ico",
