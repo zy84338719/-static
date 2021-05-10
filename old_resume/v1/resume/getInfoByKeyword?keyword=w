@@ -124,8 +124,8 @@
             "company": "dsc",
             "start_time": "2020/04",
             "end_time": "2020/04",
-            "describe": "\u003cp\u003e.服务迁移——将车商服务从原来Node逻辑调用转变为新的Java服务，其中运用了ORM，Redis、MongoDB、Dobbo、zk、mq等技术，由原来串行操作转换为Java8并行流操作，优化客户体验。\n                    \u003c/p\u003e\n                    \u003cp\u003e2.买手服务——服务端基于Antd构建管理页面，完成一小部分数据库表设计，开发线索查询服务，以及项目与其他子项目的数据打通。\u003c/p\u003e\n",
-            "harvest": "  \u003cp\u003e 理解MVC思想，学会基本的Spring MVC企业级开发，对系统微服务拆分有了一点理解。\u003c/p\u003e\n                    \u003cp\u003e 简单的理解react，学会基于公司后端封装的antd开发的React页面，根据后台业务，创建简单的antd业务组件。\u003c/p\u003e\n                    \u003cp\u003e 了解了服务之间如何通过中间件进行服务解耦。 \u003c/p\u003e\n                    \u003cp\u003e 学会代码review，学习别人的长处。\u003c/p\u003e"
+            "describe": "服务迁移——将车商服务从原来Node逻辑调用转变为新的Java服务，其中运用了ORM，Redis、MongoDB、Dobbo、zk、mq等技术，由原来串行操作转换为Java8并行流操作，优化客户体验。\n                   2.买手服务——服务端基于Antd构建管理页面，完成一小部分数据库表设计，开发线索查询服务，以及项目与其他子项目的数据打通。\n",
+            "harvest": " 理解MVC思想，学会基本的Spring MVC企业级开发，对系统微服务拆分有了一点理解。\n                    简单的理解react，学会基于公司后端封装的antd开发的React页面，根据后台业务，创建简单的antd业务组件。\n                  了解了服务之间如何通过中间件进行服务解耦。 \n                   学会代码review，学习别人的长处。"
           },
           {
             "code": "",
