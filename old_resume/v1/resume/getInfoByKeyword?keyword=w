@@ -50,7 +50,7 @@
       {
         "info": {
           "code": "",
-          "company_name": "神奇大学",
+          "company_name": "江苏科技大学",
           "company_code": "jskjdx",
           "start": "2018/03",
           "end": "2018/11"
@@ -58,12 +58,12 @@
         "event": [
           {
             "code": "",
-            "name": "张易",
+            "name": "风控后台可视化搭建",
             "company": "jskjdx",
-            "start_time": "2020/04",
-            "end_time": "2020/04",
-            "describe": "  \u003cp\u003e 参与基于Spring MVC、Mybatis3的数据可视化展现服务后端搭建。\u003c/p\u003e\n                    \u003cp\u003e 数据可视化前端展现，完成H5 数据展现代码。\u003c/p\u003e",
-            "harvest": "\u003cp\u003e学会JAVA编程学习方法，将多个学科知识相互融合到一起。\u003c/p\u003e\n                    \u003cp\u003e学会对需求有了思考能力。\u003c/p\u003e"
+            "start_time": "2018/07",
+            "end_time": "2018/09",
+            "describe": "参与基于Spring MVC、Mybatis3的数据可视化展现服务后端搭建。\n数据可视化前端展现，完成H5 数据展现代码。",
+            "harvest": "学会JAVA编程学习方法，将多个学科知识相互融合到一起。\n 学会对需求有了思考能力。"
           },
           {
             "code": "",
