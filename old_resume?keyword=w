@@ -1,0 +1,207 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "user": {
+      "code": "",
+      "name": "墨菲",
+      "phone": "18600321498",
+      "describe": "自己是一名喜欢折腾的用户，玩过黑苹果，搞过树莓派，DIY智能家居。性格有点内向，属于慢热型选手，爱参加开发者大会，喜欢挑战。乐观积极，热爱生活，酷爱旅游，思维活奋的小伙子。",
+      "sex": false,
+      "status": "离职",
+      "birthday": "2020-04-22T05:21:01+08:00",
+      "photo": "http://murphyyi.oss-cn-beijing.aliyuncs.com/touxiang.png",
+      "email": "zy8338719@hotmail.com",
+      "wechat": "murphyyi",
+      "github": "https://github.com/zy84338719",
+      "native": "北京",
+      "keyword": "w",
+      "watch": 301,
+      "city": "北京",
+      "expect": "后端研发",
+      "year": "1.5",
+      "age": 1
+    },
+    "skill": [
+      {
+        "code": "",
+        "name": "Java",
+        "sequence": 1,
+        "percentage": 70
+      },
+      {
+        "code": "",
+        "name": "Spring MVC",
+        "sequence": 2,
+        "percentage": 60
+      }
+    ],
+    "education": [
+      {
+        "code": "w",
+        "school": "神奇大学",
+        "formal": "本科学历",
+        "start": 2015,
+        "end": 2019,
+        "job": "计算机科学与技术"
+      }
+    ],
+    "company": [
+      {
+        "info": {
+          "code": "",
+          "company_name": "神奇大学",
+          "company_code": "jskjdx",
+          "start": "2018/03",
+          "end": "2018/11"
+        },
+        "event": [
+          {
+            "code": "",
+            "name": "张易",
+            "company": "jskjdx",
+            "start_time": "2020/04",
+            "end_time": "2020/04",
+            "describe": "  \u003cp\u003e 参与基于Spring MVC、Mybatis3的数据可视化展现服务后端搭建。\u003c/p\u003e\n                    \u003cp\u003e 数据可视化前端展现，完成H5 数据展现代码。\u003c/p\u003e",
+            "harvest": "\u003cp\u003e学会JAVA编程学习方法，将多个学科知识相互融合到一起。\u003c/p\u003e\n                    \u003cp\u003e学会对需求有了思考能力。\u003c/p\u003e"
+          },
+          {
+            "code": "",
+            "name": "3D隧道断面扫描成像",
+            "company": "jskjdx",
+            "start_time": "2018/03",
+            "end_time": "2018/11",
+            "describe": "校企合作项目该项目获得校互联网比赛三等奖。\n该项目是将隧道扫描后的点数据进行app呈现，展现一个平面内的点数据是否与预设挖掘值相符，超挖点，需要水泥灌注，欠挖点需要工人继续施工。",
+            "harvest": "校企合作项目该项目获得校互联网比赛三等奖。"
+          },
+          {
+            "code": "",
+            "name": "房屋住房管理系统",
+            "company": "jskjdx",
+            "start_time": "2019/04",
+            "end_time": "2019/06",
+            "describe": "本人毕业设计，基于spring boot，vue3、运用了mybaits，redis等常用中间件",
+            "harvest": "由于，选题及课题为自主命题，自己独立完成市场调查制作了该项目前后端。"
+          }
+        ]
+      },
+      {
+        "info": {
+          "code": "",
+          "company_name": "神奇公司",
+          "company_code": "dsc",
+          "start": "2018/11",
+          "end": "2020/02"
+        },
+        "event": [
+          {
+            "code": "",
+            "name": "张易",
+            "company": "dsc",
+            "start_time": "2020/04",
+            "end_time": "2020/04",
+            "describe": "\u003cp\u003e.服务迁移——将车商服务从原来Node逻辑调用转变为新的Java服务，其中运用了ORM，Redis、MongoDB、Dobbo、zk、mq等技术，由原来串行操作转换为Java8并行流操作，优化客户体验。\n                    \u003c/p\u003e\n                    \u003cp\u003e2.买手服务——服务端基于Antd构建管理页面，完成一小部分数据库表设计，开发线索查询服务，以及项目与其他子项目的数据打通。\u003c/p\u003e\n",
+            "harvest": "  \u003cp\u003e 理解MVC思想，学会基本的Spring MVC企业级开发，对系统微服务拆分有了一点理解。\u003c/p\u003e\n                    \u003cp\u003e 简单的理解react，学会基于公司后端封装的antd开发的React页面，根据后台业务，创建简单的antd业务组件。\u003c/p\u003e\n                    \u003cp\u003e 了解了服务之间如何通过中间件进行服务解耦。 \u003c/p\u003e\n                    \u003cp\u003e 学会代码review，学习别人的长处。\u003c/p\u003e"
+          },
+          {
+            "code": "",
+            "name": "项目管理",
+            "company": "dsc",
+            "start_time": "2020/01",
+            "end_time": "2020/02",
+            "describe": "解决北京车易拍公司内部项目项目管理问题（瀑布流），负责服务后端项目管理模块、基础数据模块，使用Spring Cloud框架Java 8语言开发，Jenkins部署\n使用Spring Cloud、Zuul网关、EureKa注册中心、Feign、Mybaits Plus、美团leaf（类雪花算法） 等技术进行开发。\n这个项目是北京研发中心的第一个Spring Cloud（boot 2.1）项目，在项目搭建过程中、需要动手查找各种遇到的问题。feign分调用存在问题，解决是调整超时时间，eurka负载的问题，需要写成集群模式。",
+            "harvest": "项目上线后，帮助项目排期从原来的研发阶段的各自为政的时代，转变为现在的井井有条。"
+          },
+          {
+            "code": "",
+            "name": "会员中心",
+            "company": "dsc",
+            "start_time": "2019/11",
+            "end_time": "2019/12",
+            "describe": "负责会员签到、会员等级配置、会员权益配置(调用优惠券项目发券)，使用Optimus Boot(基于spring boot 2.05)框架开发.\n使用了 spring boot 2, mybaits, redis, dubbo等技术",
+            "harvest": "本项目，由于不同等级可以配置不同的签到权益天数。所以这里的签到天数计算遇到了一些问题，每一个用户都需要计算一次他当前的等级所对应的签到天数。比较浪费计算资源。后来解决这个问题！重新设计了签到天数算法。将签到天数每个等级计算出来的天数进行缓存。并在后台更改签到天数时清空缓存。本项目引入了spring-cache,@cacheable  @cachevit注解,查询有缓存 ,修改/删除会清理缓存，有效防止数据不一致的问题，同自定义cacheManager来控制不同key的缓存时间，并加上随机时间，防止雪崩。"
+          },
+          {
+            "code": "",
+            "name": "集团批售-营销工具",
+            "company": "dsc",
+            "start_time": "2019/09",
+            "end_time": "2019/10",
+            "describe": "负责集团批售项目-营销工具的后台构建、对应的微信公众号后台开发。",
+            "harvest": "由于原本公众号开发是基于.Net系统开发的，且开发版本停留在2017，自己2天从了解到发布重新开发一套底层的公众号dubbo微服务，并进行http端demo调用。"
+          },
+          {
+            "code": "",
+            "name": "优惠券项目",
+            "company": "dsc",
+            "start_time": "2019/07",
+            "end_time": "2019/09",
+            "describe": "针对大搜车车易拍现有多业务线，参与构建营销体系-优惠券后端系统，以及后台管理页面\n使用了后端管理页面基于搜车自研MUJI框架构建优惠卷后台配置页面，如字典管理、优惠券活动管理、发券管理等页面（前后端分离项目、MUJI类似于阿里巴巴的dva与umi的结合）封装了一些通用页面组件，后端基于spring mvc（公司封装的Optimus MVC） dubbo、mysql、redis、memcache等技术。",
+            "harvest": "学习了一些React，Redis等知识"
+          },
+          {
+            "code": "",
+            "name": " 新零售买手项目",
+            "company": "dsc",
+            "start_time": "2019/03",
+            "end_time": "2020/04",
+            "describe": "基于公司后端封装的antd开发的React页面SAD，根据后台业务，创建简单的antd业务组件。\u2028基于Spring MVC开发后端车辆数据与数据库交互基于ES搜索服务，Redis，mysql，mq，dubbo等微服务架构逻辑，开发服务端内部管理系统后台交互逻辑。",
+            "harvest": "学习了dubbo等微服务设计原则"
+          },
+          {
+            "code": "",
+            "name": "车商SAAS-车牛",
+            "company": "dsc",
+            "start_time": "2018/11",
+            "end_time": "2019/02",
+            "describe": "车商saas，业务服务替换重写，参与车商黄页搜索、检索、上报，订阅信息、用户信 息的服务的架构迁移。\u2028",
+            "harvest": "1.服务迁移——将车商服务从原来Node逻辑调用转变为新的Java服务，其中运用了ORM、Redis、MongoDB Dubbo, zk，mq等技术，由原来串行操作转换为Java8并行流操作，优化客户体验。\u20282.买手服务——服务端基于Antd构建管理页面，完成一小部分数据库表设计，开发线索查询服务，以及项目与其他子项目的数据打通。"
+          }
+        ]
+      }
+    ],
+    "works": [
+      {
+        "code": "",
+        "name": "超级玛丽",
+        "url": "http://murphyyi.oss-cn-beijing.aliyuncs.com/1.png",
+        "photo": "http://murphyyi.oss-cn-beijing.aliyuncs.com/1.png"
+      },
+      {
+        "code": "",
+        "name": "GITHUB",
+        "url": "https://zy84338719.github.io",
+        "photo": "http://murphyyi.oss-cn-beijing.aliyuncs.com/2.png"
+      },
+      {
+        "code": "",
+        "name": "个人网站",
+        "url": "https://www.murphyyi.com",
+        "photo": "http://murphyyi.oss-cn-beijing.aliyuncs.com/3.png"
+      },
+      {
+        "code": "",
+        "name": "docker jupyter 多语言版",
+        "url": "http://zy64334678.imwork.net:8888",
+        "photo": "http://murphyyi.oss-cn-beijing.aliyuncs.com/4.png"
+      }
+    ],
+    "honor": [
+      {
+        "code": "w",
+        "name": "网易云课堂  获得python数据分析师 微专业优秀证书",
+        "url": "https://murphyyi.oss-cn-beijing.aliyuncs.com/%E7%BD%91%E6%98%93%E4%BA%91%E8%AF%BE%E5%A0%82.jpg"
+      },
+      {
+        "code": "w",
+        "name": "获得 计算机学院辩论比赛“最佳辩手”称号",
+        "url": "https://murphyyi.oss-cn-beijing.aliyuncs.com/%E8%BE%A9%E6%89%8B.jpg"
+      },
+      {
+        "code": "w",
+        "name": "获得 校互联网+比赛获得校三等奖",
+        "url": "https://murphyyi.oss-cn-beijing.aliyuncs.com/%E5%A5%96.JPG"
+      }
+    ]
+  }
+}
