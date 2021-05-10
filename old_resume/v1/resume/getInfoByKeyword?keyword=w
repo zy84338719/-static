@@ -4,7 +4,7 @@
   "data": {
     "user": {
       "code": "",
-      "name": "墨菲",
+      "name": "张易",
       "phone": "18600321498",
       "describe": "自己是一名喜欢折腾的用户，玩过黑苹果，搞过树莓派，DIY智能家居。性格有点内向，属于慢热型选手，爱参加开发者大会，喜欢挑战。乐观积极，热爱生活，酷爱旅游，思维活奋的小伙子。",
       "sex": false,
@@ -31,16 +31,40 @@
       },
       {
         "code": "",
-        "name": "Spring MVC",
+        "name": "Spring MVC/Boot/Cloud",
         "sequence": 2,
+        "percentage": 70
+      },
+      {
+        "code": "",
+        "name": "Linux",
+        "sequence": 3,
+        "percentage": 55
+      },
+      {
+        "code": "",
+        "name": "Git Shell Python",
+        "sequence": 4,
         "percentage": 60
+      },
+      {
+        "code": "",
+        "name": "Html/Vue",
+        "sequence": 4,
+        "percentage": 60
+      },
+      {
+        "code": "",
+        "name": "React",
+        "sequence": 4,
+        "percentage": 35
       }
     ],
     "education": [
       {
         "code": "w",
-        "school": "神奇大学",
-        "formal": "本科学历",
+        "school": "江苏科技大学",
+        "formal": "统招本科",
         "start": 2015,
         "end": 2019,
         "job": "计算机科学与技术"
@@ -175,13 +199,13 @@
       },
       {
         "code": "",
-        "name": "个人网站",
+        "name": "个人网站（已经关停）",
         "url": "https://www.murphyyi.com",
         "photo": "http://murphyyi.oss-cn-beijing.aliyuncs.com/3.png"
       },
       {
         "code": "",
-        "name": "docker jupyter 多语言版",
+        "name": "docker jupyter 多语言版（已经关停）",
         "url": "http://zy64334678.imwork.net:8888",
         "photo": "http://murphyyi.oss-cn-beijing.aliyuncs.com/4.png"
       }
