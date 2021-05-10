@@ -1,0 +1,105 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": {
+    "user": {
+      "code": "",
+      "name": "王小五",
+      "phone": "18600321497",
+      "describe": "自己是一名喜欢折腾的用户，玩过黑苹果，搞过树莓派，喜欢挑战。乐观积极，热爱生活，酷爱旅游，思维活奋的小伙子。",
+      "sex": false,
+      "status": "在职",
+      "birthday": "1999-04-26T01:01:24+08:00",
+      "photo": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1237874594,3316798710\u0026fm=15\u0026gp=0.jpg",
+      "email": "resume@murphyyi.com",
+      "wechat": "qianduan",
+      "github": "https://github.com/Lienol",
+      "native": "北京",
+      "keyword": "wangxiaowu",
+      "watch": 83,
+      "city": "北京",
+      "expect": "前端研发",
+      "year": "3",
+      "age": 22
+    },
+    "skill": [
+      {
+        "code": "",
+        "name": "RN",
+        "sequence": 1,
+        "percentage": 70
+      },
+      {
+        "code": "",
+        "name": "vue",
+        "sequence": 2,
+        "percentage": 80
+      },
+      {
+        "code": "",
+        "name": "react",
+        "sequence": 3,
+        "percentage": 50
+      },
+      {
+        "code": "",
+        "name": "nodejs",
+        "sequence": 4,
+        "percentage": 77
+      },
+      {
+        "code": "",
+        "name": "mongo",
+        "sequence": 4,
+        "percentage": 60
+      }
+    ],
+    "education": [
+      {
+        "code": "wangxiaowu",
+        "school": "墨菲大学",
+        "formal": "本科学历",
+        "start": 2011,
+        "end": 2016,
+        "job": "计算机科学与技术"
+      }
+    ],
+    "company": [
+      {
+        "info": {
+          "code": "",
+          "company_name": "神奇公司",
+          "company_code": "www",
+          "start": "2018/11",
+          "end": "2020/02"
+        },
+        "event": [
+          {
+            "code": "",
+            "name": "张实话实说",
+            "company": "www",
+            "start_time": "2020/04",
+            "end_time": "2020/04",
+            "describe": "服务迁移——将车商服务从原来Node逻辑调用转变为新的Java服务，其中运用了ORM，Redis、MongoDB、Dobbo、zk、mq等技术，由原来串行操作转换为Java8并行流操作，优化客户体验。",
+            "harvest": "理解MVC思想，学会基本的Spring MVC企业级开发，对系统微服务拆分有了一点理解。"
+          }
+        ]
+      }
+    ],
+    "works": [
+      {
+        "code": "",
+        "name": "简历网站",
+        "url": "http://resume.murphyyi.com/#/preview/wangxiaowu",
+        "photo": "http://murphyyi.oss-cn-beijing.aliyuncs.com/4.png"
+      }
+    ],
+    "honor": [
+      {
+        "code": "wangxiaowu",
+        "name": "获得 呜呜呜呜呜 荣誉",
+        "url": "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1237874594,3316798710\u0026fm=15\u0026gp=0.jpg"
+      }
+    ]
+  }
+}
