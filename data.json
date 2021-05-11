@@ -15,6 +15,12 @@
         "link": "https://gitlab.com/murphyyi"
       },
       {
+        "icon": "https://cloud.tencent.com/favicon.ico",
+        "name": "leetcode",
+        "desc": "刷题的网站",
+        "link": "https://cloud.tencent.com/"
+      },
+      {
         "icon": "https://leetcode-cn.com/favicon.ico",
         "name": "leetcode",
         "desc": "刷题的网站",
