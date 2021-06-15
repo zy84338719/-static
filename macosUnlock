@@ -1,0 +1,140 @@
+#!/usr/bin/env bash
+
+# Installing alc on your Linux/Mac
+# Usage:
+# curl -s https://git.xiaojukeji.com/alphacloud/AlphaCloud-alc/raw/master/bin/install | sudo bash -s release
+
+ping=`ping -c 3 www.baidu.com|awk 'NR==7 {print $4}'`
+if [ $ping -ne 3 ]
+	then
+	echo -e "\e[31m Unable to access public network, public network is required \e[0m" 1>&2
+	exit 1
+fi
+
+BRANCH_NAME=$1
+INSTALL_IN_IMAGE=$2
+if [[ -z "$BRANCH_NAME" ]]; then
+  BRANCH_NAME=release
+fi
+
+if [[ $EUID -ne 0 ]]; then
+   echo -e "\e[31m This script must be run as root \e[0m" 1>&2
+   exit 1
+fi
+
+which git
+if [ $? -ne 0 ]; then
+    echo -e "\e[31m Please install git, for example apt-get install git \e[0m" 1>&2
+    exit 1
+fi
+
+which python
+if [ $? -ne 0 ]; then
+    echo -e "\e[31m Please install python, for example apt-get install python \e[0m" 1>&2
+    exit 1
+fi
+
+if [[ ! -d /alc/tool ]]; then
+    mkdir -p /alc
+    cd /alc
+    git clone https://git.xiaojukeji.com/alphacloud/AlphaCloud-alc.git tool
+    git checkout ${BRANCH_NAME}
+else
+    cd /alc/tool
+    git checkout ${BRANCH_NAME}
+    git pull
+fi
+
+which pip
+if [ $? -ne 0 ]; then
+    echo ">>>>>> pip not found. Installing pip..."
+    wget http://artifactory.intra.xiaojukeji.com/artifactory/libs-snapshot-local/com/didi/ep/alphacloud/generals/get-pip.py
+    python get-pip.py
+    if [ $? -ne 0 ]; then
+        echo -e "\e[31m Fail to install pip \e[0m" 1>&2
+        exit 1
+    fi
+    echo "<<<<<< done."
+else
+    echo ">>>>>> found pip."
+fi
+
+pip install --upgrade pip
+
+which virtualenv
+if [ $? -ne 0 ]; then
+    echo ">>>>>> virtualenv not found. Installing virtualenv..."
+    pip install -i http://artifactory.intra.xiaojukeji.com/artifactory/api/pypi/pypi/simple --trusted-host artifactory.intra.xiaojukeji.com virtualenv
+    if [ $? -ne 0 ]; then
+        echo -e "\e[31m Fail to pip install virtualenv \e[0m" 1>&2
+        exit 1
+    fi
+    echo "<<<<<< done."
+else
+    echo ">>>>>> found virtualenv."
+fi
+
+
+cd /alc/tool
+if [[ ! -d /alc/tool/venv ]]; then
+    echo ">>>>>> initializing virtual environment..."
+    if [[ "$INSTALL_IN_IMAGE" -eq 1 ]]; then
+        virtualenv --system-site-packages venv --no-download
+    else
+        virtualenv venv
+    fi
+
+    if [ $? -ne 0 ]; then
+        echo -e "\e[31m Fail to initialize python virtual environment \e[0m" 1>&2
+        exit 1
+    fi
+    echo "<<<<<< done."
+fi
+
+echo ">>>>>> installing 3rd party dependency..."
+source venv/bin/activate
+pip install -i http://artifactory.intra.xiaojukeji.com/artifactory/api/pypi/pypi/simple --trusted-host artifactory.intra.xiaojukeji.com -r requirements.txt
+if [ $? -ne 0 ]; then
+    exit 1
+fi
+
+
+if [ 'find /etc' != "" ]; then
+    result1=$(cat /etc/profile | grep "export ALC=/alc/tool")
+    result2=$(cat /etc/profile | grep "export PATH=\$PATH:\$ALC/bin")
+    if [[ "$result1" == "" ]]; then
+        echo "export ALC=/alc/tool" >> /etc/profile
+        source /etc/profile
+    fi
+    if [[ "$result2" == "" ]]; then
+        echo "export PATH=\$PATH:\$ALC/bin" >> /etc/profile
+        source /etc/profile
+    fi
+fi
+if [ 'find ~/.bash_profile' != "" ]; then
+    result1=$(cat ~/.bash_profile | grep "export ALC=/alc/tool")
+    result2=$(cat ~/.bash_profile | grep "export PATH=\$PATH:\$ALC/bin")
+    if [[ "$result1" == "" ]]; then
+        echo "export ALC=/alc/tool" >> ~/.bash_profile
+        source ~/.bash_profile
+    fi
+    if [[ "$result2" == "" ]]; then
+        echo "export PATH=\$PATH:\$ALC/bin" >> ~/.bash_profile
+        source ~/.bash_profile
+    fi
+fi
+if [ 'find ~/.zshrc' != "" ]; then
+    result1=$(cat ~/.zshrc | grep "export ALC=/alc/tool")
+    result2=$(cat ~/.zshrc | grep "export PATH=\$PATH:\$ALC/bin")
+    if [[ "$result1" == "" ]]; then
+        echo "export ALC=/alc/tool" >> ~/.zshrc
+        source ~/.zshrc
+    fi
+    if [[ "$result2" == "" ]]; then
+        echo "export PATH=\$PATH:\$ALC/bin" >> ~/.zshrc
+        source ~/.zshrc
+    fi
+fi
+echo "<<<<<< done."
+echo ">>>>>> alc is installed at /alc/tool."
+echo ">>>>>> please restart terminal , then you can use 'alc' command in your terminal"%
