@@ -1,0 +1,53 @@
+[
+   {
+        "name": "JumpServer堡垒机",
+        "link": "http://jp.z.com/ui/#/",
+        "box_shadow": "#11B063",
+        "icon": "img/coolapk.png"
+    }, {
+        "name": "主路由",
+        "link": "http://ik.z.com",
+        "box_shadow": "#FA7199",
+        "icon": "img/via.png"
+    }, {
+        "name": "小米路由",
+        "link": "https//miwifi.com/",
+        "box_shadow": "#F2584A",
+        "icon": "img/headline.png"
+    }, {
+        "name": "翻墙路由",
+        "link": "http://openwrt.z.com",
+        "box_shadow": "#0078D8",
+        "icon": "img/zhihulogo.png"
+    }, {
+        "name": "翻墙资源调整",
+        "link": "http://clash.z.com",
+        "box_shadow": "#F57923",
+        "icon": "img/mi.png"
+    },{
+        "name": "内网路由配置",
+        "link": "http://c.z.com",
+        "box_shadow": "#2C2C2C",
+        "icon": "img/unsplash.png"
+    },{
+        "name": "容器管理",
+        "link": "http://docker.z.com",
+        "box_shadow": "#37bf4c",
+        "icon": "img/douban.png"
+    }, {
+        "name": "群晖",
+        "link": "http://sy.z.com",
+        "box_shadow": "#c01d2f",
+        "icon": "img/hupu.png"
+    }, {
+        "name": "威联通",
+        "link": "http://qnap.z.com",
+        "box_shadow": "#fe7700",
+        "icon": "img/douyu.png"
+    },{
+        "name": "广告管理",
+        "link": "http://ad.z.com",
+        "box_shadow": "#c5000a",
+        "icon": "img/csdn.png"
+    }
+]
