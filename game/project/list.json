@@ -1,0 +1,25 @@
+{
+	"code": 200,
+	"msg": "操作成功",
+	"result": {
+		"list": [{
+			"path": "pvz",
+			"title": "植物大战僵尸僵尸🧟",
+			"url": "http://pvz.game.murphyyi.com/",
+			"desc": "网页版植物大战僵尸",
+			"coverUrl": "https://ouch-cdn2.icons8.com/bYxYwojL2K9Kdrzave5IWyrKFVHADkpuqLEy0PXxRPg/rs:fit:256:192/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvODYw/L2I0N2YyMDlkLWI0/ZTUtNGViMi04YzRi/LTM3ZjdkZmIzZDIw/MS5zdmc.png"
+		}, {
+			"path": "elsfk",
+			"title": "俄罗斯🇷🇺方块",
+			"url": "http://elsfk.game.murphyyi.com/",
+			"desc": "网页版俄罗斯方块",
+			"coverUrl": "https://ouch-cdn2.icons8.com/ecbhnQxhdJFde61dFLcKFAN0UHTVu5zKlS2EU1keAls/rs:fit:256:256/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvNzUy/LzliZjFjOWFmLTU1/ZjItNDcyNy05MDhk/LTdlNDU2YTcwMDE1/Ni5zdmc.png"
+		}, {
+			"path": "spider",
+			"title": "蜘蛛🕷️纸牌",
+			"url": "http://spider.game.murphyyi.com/",
+			"desc": "网页版蜘蛛纸牌",
+			"coverUrl": "https://ouch-cdn2.icons8.com/YB-zOIvPGvf-ffPo7lBspDJhDkM3cFGuEQnlMokjwfU/rs:fit:256:192/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvOTA4/LzZiMDVmOTIxLTNi/MWMtNDdlOC1hYmM1/LTRiZmE1ZTgxNzlj/Yy5zdmc.png"
+		}]
+	}
+}
