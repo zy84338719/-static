@@ -20,6 +20,13 @@
 			"url": "http://spider.game.murphyyi.com/",
 			"desc": "网页版蜘蛛纸牌",
 			"coverUrl": "https://ouch-cdn2.icons8.com/YB-zOIvPGvf-ffPo7lBspDJhDkM3cFGuEQnlMokjwfU/rs:fit:256:192/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvOTA4/LzZiMDVmOTIxLTNi/MWMtNDdlOC1hYmM1/LTRiZmE1ZTgxNzlj/Yy5zdmc.png"
-		}]
+		},{
+			"path": "wuzi",
+			"title": "五子棋",
+			"url": "http://wuzi.game.murphyyi.com/",
+			"desc": "网页版五子棋",
+			"coverUrl": "https://ouch-cdn2.icons8.com/YB-zOIvPGvf-ffPo7lBspDJhDkM3cFGuEQnlMokjwfU/rs:fit:256:192/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvOTA4/LzZiMDVmOTIxLTNi/MWMtNDdlOC1hYmM1/LTRiZmE1ZTgxNzlj/Yy5zdmc.png"
+		}
+			]
 	}
 }
